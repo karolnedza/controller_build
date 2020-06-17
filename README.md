@@ -21,6 +21,7 @@ $ sudo apt install git
 ## Install awscli
 
 $ sudo apt install awscli
+
 $ aws --version
 
 aws-cli/1.14.44 Python/3.6.9 Linux/4.15.0-1065-aws botocore/1.8.48
