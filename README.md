@@ -33,10 +33,6 @@ $ aws --version
 aws-cli/1.14.44 Python/3.6.9 Linux/4.15.0-1065-aws botocore/1.8.48
 
 
-## Clone repository to a directory
-
-$ git clone https://github.com/karolnedza/controller_build.git .
-
 ## Add your AWS Access-Key and Secret-Key
 
 $ aws configure
@@ -49,9 +45,20 @@ Default region name [us-east-1]:
 
 Default output format [None]:
 
+## Clone repository to a directory
+
+$ git clone https://github.com/karolnedza/controller_build.git .
+
+## Go to controller directory and create ctrl_key.pem ssh-key
+
+$ ssh-keygen -t rsa -f ctrl_key -C "controller_public_key"
+
+## Subscribe to “Aviatrix Secure Networking Platform Metered - 24x7 Support”
+
+https://aws.amazon.com/marketplace/pp?sku=b03hn7ck7yp392plmk8bet56k
 
 
-## Run terraform
+## Run terraform  
 
 $ terraform init
 
