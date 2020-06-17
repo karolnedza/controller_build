@@ -33,10 +33,15 @@ $ git clone https://github.com/karolnedza/controller_build.git .
 ## Add your AWS Access-Key and Secret-Key
 
 $ aws configure
+
 AWS Access Key ID [****************S3Q3]:
+
 AWS Secret Access Key [****************vmrW]:
+
 Default region name [us-east-1]:
+
 Default output format [None]:
+
 
 ## Run terraform
 
